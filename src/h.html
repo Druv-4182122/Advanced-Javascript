@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Practice</title>
+
+</head>
+
+<body>
+
+    <h1 id="main-title">DOM Manipulation</h1>
+
+    <form id="form-example" onsubmit="return submitbtn(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+    <button id="open-modal-btn">Open Modal</button>
+
+    <div id="content-area"></div>
+
+    <textarea id="text-area" rows="4" cols="50">Type some text...</textarea>
+
+    <div id="modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+            <button id="close-modal-btn">Close Modal</button>
+        </div>
+    </div>
+
+    <script>
+        let modelbtn = document.getElementById("open-modal-btn")
+        let model = document.getElementById("modal")
+        function clickModelbtn()
+        {
+            console.log("The Modal is Open Now");
+            model.style.display = "flex"
+        }
+        modelbtn.addEventListener("click", clickModelbtn)
+
+
+        let closemodelbtn = document.getElementById("close-modal-btn")
+        function closeModel()
+        {
+            console.log("The Model is Closed Now")
+            model.style.display = "none"
+        }
+        closemodelbtn.addEventListener("click", closeModel)
+
+
+        let crossbtn = document.querySelector(".close")
+        function hovertryd()
+        {
+            crossbtn.style.cursor = "pointer"
+        }
+        crossbtn.addEventListener("mouseover", hovertryd)
+        crossbtn.addEventListener("click", closeModel)
+
+
+        let Name = document.getElementById("name")
+        let age = document.getElementById("age")
+        let textArea = document.getElementById("text-area")
+        let submitt = document.getElementById("submit")
+
+        function submitbtn(event)
+        {
+            event.preventDefault()
+            console.log("Name:",Name.value);
+            console.log("Age:",age.value);
+            console.log("Details:",textArea.value);
+        }
+        submitt.addEventListener("click", submitbtn)
+    </script>
+</body>
+
+</html>

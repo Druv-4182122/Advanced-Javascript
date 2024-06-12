@@ -1,0 +1,502 @@
+// const { add, variablee } = require(".");
+
+// add(56,55)
+// variablee()
+// variablee()
+
+// let array = [1,2,3,4,5,6,7,8,9,10]
+// let length = array.length
+
+// for(let i = 0; i < length; i++)
+//     {
+//         let calculated_v = array[i]
+//         let even = calculated_v % 2 === 1
+//         if(even)
+//             {
+//                 console.log(calculated_v);
+//             }
+//     }
+
+
+
+
+// let Vampires = [
+//     {Name : "Joseph", Age : 211},
+//     {Name : "Jasmine", Age : 279},
+//     {Name : "Jonathan", Age : 210},
+// ]
+// // let length = group.length
+
+// function findOldAge(old)
+// {
+//     let olderVampire = old[0]
+//     for(let i = 1; i < old.length; i++)
+//         {
+//             let newSearchVampire = old[i]
+//             if(newSearchVampire["Age"] > olderVampire.Age)
+//                 {
+//                     olderVampire = newSearchVampire
+//                 }
+//         }
+//     return olderVampire
+// }
+
+// console.log(findOldAge(Vampires));
+
+
+
+
+// let arrrray = ['9','8','4','5']
+// let finalArr = []
+// for(let i = 0; i < arrrray.length; i++)
+//     {
+//         let newArrrr = parseInt(arrrray[i])
+//         finalArr.push(newArrrr)
+//     }
+// console.log(finalArr);    
+
+
+
+
+// let objj = [
+//     {Name:'Jasmine', Age:169},
+//     {Name:'Joseph', Age:458},
+//     {Name:'John', Age:258},
+//     {Name:'Jonathan', Age:123}
+// ]
+
+// let sortedArr = objj.sort((a,b) => a.Age - b.Age)
+// console.log(sortedArr);
+
+
+
+
+// let arraay = [0,1,2,3,4,5]
+// let length = arraay.length
+
+// function trim(arr)
+// {
+//     let trimmedArray = arraay.slice(1, length - 1)
+//     return trimmedArray
+// }
+
+// let TrimmedArray = trim(arraay)
+// console.log(TrimmedArray);
+
+
+
+
+// let Cart = {
+//     "Milk": 
+//     {
+//         Quantity:4,
+//         Cost:120
+//     },
+//     "Book": 
+//     {
+//         Quantity:5,
+//         Cost:200
+//     },
+//     "Pen": 
+//     {
+//         Quantity:20,
+//         Cost:30
+//     }
+// }
+
+// function Calc(obj)
+// {
+//     let keys = Object.keys(obj)
+//     let sum = 0
+//     for(let i = 0; i < keys.length; i++)
+//         {
+//             let current_key = keys[i]
+//             keys_db = Cart[current_key]
+//             let total = keys_db.Cost * keys_db.Quantity
+//             sum = sum + total
+//         }
+//     return sum    
+// }
+// console.log("Your Total amount is",Calc(Cart),"rs");
+
+// console.log("I Guess its working");
+
+
+
+
+
+// let original = {
+//     Nike: {
+//         Quality: ["Good","Premium","TopNotch"]
+//     },
+//     Puma: {
+//         Quality: ["Legend","Glossy","OldSchool"]
+//     }
+// }
+
+// function copyFunction(obj)
+// {
+//     let newObj = obj
+//     return newObj
+// }
+
+// let copy = copyFunction(original)
+// console.log(copy);
+
+
+
+
+
+// let Topper = {
+//     Maths: {
+//         marks:8
+//     },
+//     Science: {
+//         marks:7
+//     },
+//     Physics: {
+//         marks:9
+//     }
+// }
+
+// function FindAverageMarks(obj)
+// {
+//     let sum = 0
+//     let Subjects = 0
+//     let Keys = Object.keys(obj)
+//     for(let i = 0; i < Keys.length; i++)
+//         {
+//             let Current_keys = Keys[i]
+//             let Calcc = Topper[Current_keys].marks
+
+//             sum = sum + Calcc
+//             Subjects++
+//         }
+//     let average = sum / Subjects
+//     return average
+// }
+
+// console.log("The Average of the subjects is",FindAverageMarks(Topper));
+
+
+
+
+
+// function Invocation()
+// {
+//     let BeingCalled = 0
+//     return function()
+//     {
+//         BeingCalled++
+//         console.log(BeingCalled);
+//     }
+// }
+
+// let increment = Invocation()
+
+// increment()
+// increment()
+// increment()
+// increment()
+// increment()
+// increment()
+// increment()
+// increment()
+// increment()
+// increment()
+
+// let examplee = (a,b) => 
+//     {
+//         return console.log(a * b);
+//     }
+
+// examplee(7,7)
+
+
+
+
+// let Price = [
+//     {Name:"AmulMilk", cost:200},
+//     {Name:"AnandMilk", cost:369},
+//     {Name:"PowerderedMilk", cost:500},
+// ]
+
+// let Desc = Price.sort((a,b) => b.cost - a.cost)
+// console.log(Desc);
+
+
+
+
+
+// let strings = ["This", "is", "not", "incredible", "because", "i dont know"]
+// let filterOutShortString = (str) => 
+//     {
+//         let LongStrings = []
+//         for(let i = 0; i < str.length; i++)
+//             {
+//                 let CurrentString = str[i]
+//                 if(CurrentString.length > 5)
+//                     {
+//                         LongStrings.push(CurrentString)
+//                     }
+//             }
+//         return LongStrings
+//     }
+
+// console.log(filterOutShortString(strings));
+
+
+
+
+
+
+// class Deck
+// {
+//     constructor(Name,Type)
+//     {
+//         this.Name = Name
+//         this.Type = Type
+//     }
+
+//     tryy()
+//     {
+//         console.log("It Worked !!!", this.Type);
+//     }
+// }
+
+// let Bowler = new Deck("Bowler", "Epic")
+// let Witch = new Deck("Witch", "Epic")
+// let RamRider = new Deck("Ram Rider", "Legendary")
+// let Arrows = new Deck("Arrows", "Common")
+// let HiddenTesla = new Deck("Hidden Tesla", "Common")
+// let Pheonix = new Deck("Pheonix", "Legendary")
+// let MiniPekka = new Deck("Mini Pekka", "Rare")
+// let Rocket = new Deck("Rocket", "Rare")
+
+// console.log(Bowler);
+// console.log(Witch);
+// console.log(RamRider);
+// console.log(Arrows);
+// console.log(HiddenTesla);
+// console.log(Pheonix);
+// console.log(MiniPekka);
+// console.log(Rocket);
+
+// Pheonix.tryy()
+
+
+// class OverPowered extends Deck
+// {
+//     constructor(Name,Type,Counter)
+//     {
+//         super(Name,Type)
+//         this.Counter = Counter
+//     }
+
+//     tryy2()
+//     {
+//         console.log("This Works Too !!!",this.Type);
+//     }
+
+   
+// }
+
+// let MegaKnight = new OverPowered("MegaKnight","Legendary","MiniPekka")
+// console.log(MegaKnight);
+// let LittlePrince = new OverPowered("Little Prince","Champion","Bowler")
+// console.log(LittlePrince);
+// LittlePrince.tryy2()
+
+
+
+
+
+// class Rectangle
+// {
+//     constructor(Width,Height,Name)
+//     {
+//         this.Width = Width
+//         this.Height = Height
+//         this.Name = Name
+//     }
+
+//     calc()
+//     {
+//         let Area = this.Width * this.Height
+//         console.log("The area of the", this.Name, "is",Area);
+//     }
+// }
+
+// let rect1 = new Rectangle(5,10,"rect1")
+// console.log(rect1);
+// rect1.calc()
+
+// let rect2 = new Rectangle(8,10,"rect2")
+// console.log(rect2);
+// rect2.calc()
+
+
+
+// class Circle
+// {
+//     constructor(Radius)
+//     {
+//         this.Radius = Radius
+//     }
+// }
+
+// let new_circle = new Circle(5.5)
+// console.log(new_circle);
+
+
+
+
+
+
+// let sleep = ms => new Promise(r => setTimeout(r,ms))
+
+// async function Run()
+// {
+//     await sleep(5000)
+//     console.log("Roronoa Zoro");
+// }
+
+// Run()
+
+// async function errorr()
+// {
+//     try
+//     {
+//         const res = await fetch("https://the-one-api.dev/v2/book")
+//         const data = await res.json()
+//         console.log(data);
+//     }
+//     catch(err)
+//     {
+//         console.log("Error Fetching Data");
+//     }
+// }
+// errorr()
+
+
+
+
+
+
+// const greeting = Name => {
+//     console.log("Hi Nice to meet you", Name);
+// }
+// greeting("Druv")
+
+// let Personalities =["Scary","Unknown","Bold"]
+// let isPersonalitySafe = Personalities.includes("Unknown") ? false : true
+// if(Personalities.includes("Unknown"))
+//     {
+//         isPersonalitySafe = false
+//     }
+// else
+// {
+//     isPersonalitySafe = true
+// }
+// console.log(isPersonalitySafe);
+
+
+
+// ternary operator "?" we can do the same if else statement in one line using ternary operator
+
+
+
+
+
+// let newObject = {
+//     name: "Druv",
+//     age: 21
+// }
+
+// if we want to log the values of name and age we would do like this
+
+// console.log(newObject.name, newObject.age);
+
+// or like this
+
+// let name = newObject.name
+// let age = newObject.age
+// console.log(name,age)
+
+
+
+// instead of the above queries we can do this in one line without calling both name and age seperately
+
+// const {name,age} = newObject
+// console.log(name,age);
+
+
+
+
+// let myName = "Druv"
+// let mySurname = "Nagpal"
+// console.log("Hello my name is", myName, "and my surname is", mySurname);
+// here we need to break the string inOrder to include the variable so we can simplify this like this
+// it is called template literal string, this uses `` instead of ""
+
+// console.log(`Hello my name is ${myName} and my surname is ${mySurname}`);
+
+
+
+
+
+// this ... is called Spread Operator is used to copy an object or an array 
+// let aObject = {
+//     favouriteCharacter : "Roronoa Zoro"
+// }
+
+// let bObject = {
+//     ...aObject,
+//     favouriteVillian: "Doflamingo"
+// }
+// console.log(bObject);
+
+
+
+
+
+
+
+// Reduce, map, filter goes beyond my brain
+
+
+
+
+
+// for of loop 
+
+// let cArray = [25,47,69,99,51,9]
+
+// for (let current_value of cArray){
+//     console.log(current_value);
+// }
+
+//this is much easier than this 
+
+// for(let i = 0;i<cArray.length;i++){
+//     let current_value = cArray[i]
+//     console.log(current_value);
+// }
+
+// or this
+
+// cArray.forEach((curr_value) => {console.log(curr_value);} )
+
+// squares of the above array
+// let squaress = current_value => {
+//     for(let i = 0; i < cArray.length; i++){
+//         current_value = cArray[i] * cArray[i]
+//         console.log(current_value);   
+//     }
+// }
+// squaress(cArray)
+
+
+
+
+
