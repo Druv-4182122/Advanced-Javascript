@@ -26,12 +26,14 @@
 
 
 
+
+
+//this is the question to find out the oldest vampire from the array of objects
 // let Vampires = [
 //     {Name : "Joseph", Age : 211},
 //     {Name : "Jasmine", Age : 279},
 //     {Name : "Jonathan", Age : 210},
 // ]
-// // let length = group.length
 
 // function findOldAge(old)
 // {
@@ -39,7 +41,7 @@
 //     for(let i = 1; i < old.length; i++)
 //         {
 //             let newSearchVampire = old[i]
-//             if(newSearchVampire["Age"] > olderVampire.Age)
+//             if(newSearchVampire["Age"] > olderVampire.Age)   // if you change it like if(newSearchVampire["Age"] < olderVampire.Age) then it'll find out the youngest vampire from the array
 //                 {
 //                     olderVampire = newSearchVampire
 //                 }
@@ -52,6 +54,8 @@
 
 
 
+
+// this is a question to take a array of strings which contains numbers and converts it to integer which means the numbers are no longer a string datatype 
 // let arrrray = ['9','8','4','5']
 // let finalArr = []
 // for(let i = 0; i < arrrray.length; i++)
@@ -64,6 +68,8 @@
 
 
 
+
+// this is a question to sort the object in ascending order based on specific property
 // let objj = [
 //     {Name:'Jasmine', Age:169},
 //     {Name:'Joseph', Age:458},
@@ -72,7 +78,9 @@
 // ]
 
 // let sortedArr = objj.sort((a,b) => a.Age - b.Age)
+// if you change it like let sortedArr = objj.sort((a,b) => b.Age - a.Age) then it'll sort it in descending order
 // console.log(sortedArr);
+
 
 
 
