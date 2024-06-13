@@ -55,6 +55,7 @@
 
 
 
+// this is a question to convert a string contains numbers to integer which means the numbers are no longer a string datatype 
 // let arrrray = ['9','8','4','5']
 // let finalArr = []
 // for(let i = 0; i < arrrray.length; i++)
