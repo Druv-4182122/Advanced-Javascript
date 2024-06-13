@@ -479,7 +479,7 @@
 
 
 
-// this ... is called Spread Operator is used to copy an object or an array 
+// this ... is called Spread Operator is used to copy an object or an array  
 // let aObject = {
 //     favouriteCharacter : "Roronoa Zoro"
 // }
