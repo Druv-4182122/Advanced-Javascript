@@ -440,6 +440,7 @@
 
 
 
+// object new features
 // let newObject = {
 //     name: "Druv",
 //     age: 21
@@ -455,9 +456,7 @@
 // let age = newObject.age
 // console.log(name,age)
 
-
-
-// instead of the above queries we can do this in one line without calling both name and age seperately
+// instead of the above queries we can do this in one line without initializing different variables for both name and age seperately
 
 // const {name,age} = newObject
 // console.log(name,age);
