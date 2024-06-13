@@ -502,6 +502,7 @@
 
 
 
+// few for loop features like for of loop
 // for of loop 
 
 // let cArray = [25,47,69,99,51,9]
