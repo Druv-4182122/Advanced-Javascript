@@ -464,9 +464,12 @@
 
 
 
+
+// template literal string example 
 // let myName = "Druv"
 // let mySurname = "Nagpal"
 // console.log("Hello my name is", myName, "and my surname is", mySurname);
+
 // here we need to break the string inOrder to include the variable so we can simplify this like this
 // it is called template literal string, this uses `` instead of ""
 
