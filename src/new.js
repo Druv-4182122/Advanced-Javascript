@@ -413,6 +413,7 @@
 
 
 
+// this is the example of ternary operator ?
 // const greeting = Name => {
 //     console.log("Hi Nice to meet you", Name);
 // }
