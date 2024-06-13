@@ -164,6 +164,7 @@
 
 
 
+// this is a function that calculates the average marks from the object
 // let Topper = {
 //     Maths: {
 //         marks:8
