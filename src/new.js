@@ -1,21 +1,27 @@
-// const { add, variablee } = require(".");
+// const { add, variablee } = require(".");        // it imports files from index.js
 
 // add(56,55)
 // variablee()
 // variablee()
 
+
+
+
+
+// this is a question to find print out odd numbers from the array.
 // let array = [1,2,3,4,5,6,7,8,9,10]
 // let length = array.length
 
 // for(let i = 0; i < length; i++)
 //     {
 //         let calculated_v = array[i]
-//         let even = calculated_v % 2 === 1
-//         if(even)
-//             {
-//                 console.log(calculated_v);
-//             }
-//     }
+//         let even = calculated_v % 2 === 1      
+        // if you change it like let even = calculated_v % 2 === 0 then it'll print out even numbers from the array
+    //     if(even)
+    //         {
+    //             console.log(calculated_v);
+    //         }
+    // }
 
 
 
