@@ -141,6 +141,7 @@
 
 
 
+// this is a function which copies from the other function
 // let original = {
 //     Nike: {
 //         Quality: ["Good","Premium","TopNotch"]
