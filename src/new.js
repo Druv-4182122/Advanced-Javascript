@@ -69,6 +69,7 @@
 
 
 
+// this is a question to sort the object in ascending order based on specific property
 // let objj = [
 //     {Name:'Jasmine', Age:169},
 //     {Name:'Joseph', Age:458},
@@ -77,7 +78,9 @@
 // ]
 
 // let sortedArr = objj.sort((a,b) => a.Age - b.Age)
+// if you change it like let sortedArr = objj.sort((a,b) => b.Age - a.Age) then it'll sort it in descending order
 // console.log(sortedArr);
+
 
 
 
