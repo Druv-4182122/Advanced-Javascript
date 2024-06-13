@@ -101,6 +101,7 @@
 
 
 
+// this is a question which calculates the total cost from the below Cart
 // let Cart = {
 //     "Milk": 
 //     {
