@@ -85,6 +85,7 @@
 
 
 
+// this is a question which slices the array [0] index and [5] index
 // let arraay = [0,1,2,3,4,5]
 // let length = arraay.length
 
