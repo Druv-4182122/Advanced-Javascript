@@ -376,6 +376,9 @@
 
 
 
+/* this is asynchronous function that can be used to create a timeout
+ to execute the scripts. */
+
 
 // let sleep = ms => new Promise(r => setTimeout(r,ms))
 
@@ -386,6 +389,9 @@
 // }
 
 // Run()
+
+/* the errorr() function is used to fetch the data from the link mentioned below and give the
+  try and catch method is used to print out the error */
 
 // async function errorr()
 // {
@@ -414,6 +420,7 @@
 
 // let Personalities =["Scary","Unknown","Bold"]
 // let isPersonalitySafe = Personalities.includes("Unknown") ? false : true
+// comment the if else loop if you are executing the above line !!!
 // if(Personalities.includes("Unknown"))
 //     {
 //         isPersonalitySafe = false
@@ -426,7 +433,7 @@
 
 
 
-// ternary operator "?" we can do the same if else statement in one line using ternary operator
+// ternary operator "?" we can do the same if else statement in one line using ternary operator 
 
 
 
