@@ -249,6 +249,7 @@
 
 
 
+// this function prints only that string from the array which has more than 5 characters
 // let strings = ["This", "is", "not", "incredible", "because", "i dont know"]
 // let filterOutShortString = (str) => 
 //     {
