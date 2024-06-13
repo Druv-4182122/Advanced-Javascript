@@ -234,6 +234,8 @@
 
 
 
+
+// function that sorts in descending order 
 // let Price = [
 //     {Name:"AmulMilk", cost:200},
 //     {Name:"AnandMilk", cost:369},
