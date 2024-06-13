@@ -271,7 +271,7 @@
 
 
 
-
+//example of class and constructor used for creating templates and can be used countless times
 // class Deck
 // {
 //     constructor(Name,Type)
@@ -307,6 +307,7 @@
 // Pheonix.tryy()
 
 
+//class that can use the properties of parent class
 // class OverPowered extends Deck
 // {
 //     constructor(Name,Type,Counter)
