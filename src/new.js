@@ -26,12 +26,14 @@
 
 
 
+
+
+//this is the question to find out the oldest vampire from the array of objects
 // let Vampires = [
 //     {Name : "Joseph", Age : 211},
 //     {Name : "Jasmine", Age : 279},
 //     {Name : "Jonathan", Age : 210},
 // ]
-// // let length = group.length
 
 // function findOldAge(old)
 // {
@@ -39,7 +41,7 @@
 //     for(let i = 1; i < old.length; i++)
 //         {
 //             let newSearchVampire = old[i]
-//             if(newSearchVampire["Age"] > olderVampire.Age)
+//             if(newSearchVampire["Age"] > olderVampire.Age)   // if you change it like if(newSearchVampire["Age"] < olderVampire.Age) then it'll find out the youngest vampire from the array
 //                 {
 //                     olderVampire = newSearchVampire
 //                 }
@@ -52,6 +54,7 @@
 
 
 
+
 // let arrrray = ['9','8','4','5']
 // let finalArr = []
 // for(let i = 0; i < arrrray.length; i++)
@@ -60,6 +63,7 @@
 //         finalArr.push(newArrrr)
 //     }
 // console.log(finalArr);    
+
 
 
 
