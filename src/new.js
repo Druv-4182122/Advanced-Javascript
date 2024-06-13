@@ -69,7 +69,7 @@
 
 
 
-// this is a question to sort the object in ascending order 
+// this is a question to sort the object in ascending order based on specific property
 // let objj = [
 //     {Name:'Jasmine', Age:169},
 //     {Name:'Joseph', Age:458},
