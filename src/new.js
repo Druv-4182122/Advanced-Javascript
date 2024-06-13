@@ -333,6 +333,8 @@
 
 
 
+/*initializing a class which creates a template used to calculate
+ the area of any rectangle */
 
 // class Rectangle
 // {
@@ -357,7 +359,6 @@
 // let rect2 = new Rectangle(8,10,"rect2")
 // console.log(rect2);
 // rect2.calc()
-
 
 
 // class Circle
